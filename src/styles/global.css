@@ -89,32 +89,12 @@ body {
 
 /* Placeholder styles */
 .form-input::placeholder {
-  color: #C9E3AC;
-}
-
-/* For Firefox */
-.form-input::-moz-placeholder {
-  color: #C9E3AC;
-  opacity: 1;
-}
-
-/* For Chrome, Safari, and Opera */
-.form-input::-webkit-input-placeholder {
-  color: #C9E3AC;
-}
-
-/* For Microsoft Edge */
-.form-input::-ms-input-placeholder {
-  color: #C9E3AC;
+  color: #90BE6D;
 }
 
 /* Select placeholder color */
 select.form-input option:first-child {
-  color: #C9E3AC;
-}
-
-.form-input:focus {
-  outline: none;
+  color: #90BE6D;
 }
 
 .form-input-error {
