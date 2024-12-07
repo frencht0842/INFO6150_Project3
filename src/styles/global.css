@@ -1,0 +1,140 @@
+:root {
+  --primary-color: #304C89;
+  --secondary-color: #3498db;
+  --accent-color: #e74c3c;
+  --background-color: #C9E3AC;
+  --text-color: #37371F;
+  --header-height: 4rem;
+  --button-color: #EA9010;
+  --button-text-color: white;
+  --error-color: #e74c3c;
+  --success-color: #27ae60;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  z-index: 999;
+  padding: 1em;
+  background-color: var(--primary-color);
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.button {
+  background-color: var(--button-color);
+  color: var(--button-text-color);
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: opacity 0.2s ease-in-out;
+  font-weight: 500;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+}
+
+.button:hover {
+  opacity: 0.9;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button-active {
+  background-color: var(--button-color);
+  opacity: 0.8;
+}
+
+.button-remove {
+  background-color: var(--button-color);
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: var(--text-color);
+}
+
+.form-input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-family: Arial, sans-serif;
+  transition: border-color 0.2s ease;
+  color: var(--text-color);
+}
+
+/* Placeholder styles */
+.form-input::placeholder {
+  color: #C9E3AC;
+}
+
+/* For Firefox */
+.form-input::-moz-placeholder {
+  color: #C9E3AC;
+  opacity: 1;
+}
+
+/* For Chrome, Safari, and Opera */
+.form-input::-webkit-input-placeholder {
+  color: #C9E3AC;
+}
+
+/* For Microsoft Edge */
+.form-input::-ms-input-placeholder {
+  color: #C9E3AC;
+}
+
+/* Select placeholder color */
+select.form-input option:first-child {
+  color: #C9E3AC;
+}
+
+.form-input:focus {
+  outline: none;
+}
+
+.form-input-error {
+  border-color: var(--error-color);
+}
+
+.form-error {
+  color: var(--error-color);
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}
+
+.form-hint {
+  color: var(--text-color);
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 0.5rem;
+  }
+}
