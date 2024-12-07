@@ -20,16 +20,16 @@ function Products() {
           All
         </button>
         <button 
-          className={`button ${filter === 'electronics' ? 'button-active' : ''}`}
-          onClick={() => setFilter('electronics')}
+          className={`button ${filter === 'flowering' ? 'button-active' : ''}`}
+          onClick={() => setFilter('flowering')}
         >
-          Electronics
+          Flowering
         </button>
         <button 
-          className={`button ${filter === 'accessories' ? 'button-active' : ''}`}
-          onClick={() => setFilter('accessories')}
+          className={`button ${filter === 'nonflowering' ? 'button-active' : ''}`}
+          onClick={() => setFilter('nonflowering')}
         >
-          Accessories
+          Nonflowering
         </button>
       </div>
       <div className="products-grid">
