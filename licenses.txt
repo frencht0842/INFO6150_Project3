@@ -3,10 +3,11 @@ Image Licenses:
 All images used in this project are from Unsplash.com and are licensed under the Unsplash License:
 https://unsplash.com/license
 
-1. Wireless Headphones - Photo by Unsplash
-2. Smart Watch - Photo by Rachit Tank
-3. Leather Wallet - Photo by Maksim Larin
-4. Sunglasses - Photo by Dom Hill
-5. Workspace Setup - Photo by Domenico Loia
-6. Audio Equipment - Photo by Malte Wingen
-7. Smart Home - Photo by Bram Naus
+https://unsplash.com/photos/green-leafed-yellow-petaled-flowering-tree-YHFKWiPMyl4
+https://unsplash.com/photos/a-close-up-of-pink-flowers-on-a-tree-N1wW23Diszw
+https://unsplash.com/photos/a-pink-and-white-flower-on-a-tree-branch-cc6jH1ILxkA
+https://unsplash.com/photos/a-tree-casts-a-shadow-on-a-wall-pFZI9bHn1jE
+https://unsplash.com/photos/green-maple-leaf-in-close-up-photography-ptUu330lxrE
+https://unsplash.com/photos/green-leafed-tree-surrounded-by-fog-during-daytime-S297j2CsdlM
+https://unsplash.com/photos/man-under-tree-during-daytime-boE2xft0cAo
+https://unsplash.com/photos/white-tree-trunks-with-yellow-leaves-at-daytime-SVqeVMCk9PE
